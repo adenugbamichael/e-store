@@ -1,87 +1,11 @@
-@font-face {
-  font-family: "Goldman Sans";
-  src: url("./assets/font/GoldmanSans_W_Bd.woff2");
-  font-weight: bold;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Goldman Sans";
-  src: url("./assets/font/GoldmanSans_W_BdIt.woff2");
-  font-weight: bold;
-  font-style: italic;
-}
-
-@font-face {
-  font-family: "Goldman Sans";
-  src: url("./assets/font/GoldmanSans_W_Blk.woff2");
-  font-weight: 900;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Goldman Sans";
-  src: url("./assets/font/GoldmanSans_W_It.woff2");
-  font-weight: light;
-  font-style: italic;
-}
-
-@font-face {
-  font-family: "Goldman Sans";
-  src: url("./assets/font/GoldmanSans_W_Lt.woff2");
-  font-weight: light;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Goldman Sans";
-  src: url("./assets/font/GoldmanSans_W_Md.woff2");
-  font-weight: medium;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Goldman Sans";
-  src: url("./assets/font/GoldmanSans_W_MdIt.woff2");
-  font-weight: medium;
-  font-style: italic;
-}
-
-@font-face {
-  font-family: "Goldman Sans";
-  src: url("./assets/font/GoldmanSans_W_Rg.woff2");
-  font-weight: regular;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Goldman Sans";
-  src: url("./assets/font/GoldmanSans_W_Th.woff2");
-  font-weight: extraLight;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Goldman Sans";
-  src: url("./assets/font/GoldmanSansCd_W_Bd.woff2");
-  font-weight: bold;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Goldman Sans";
-  src: url("./assets/font/GoldmanSansCd_W_Rg.woff2");
-  font-weight: regular;
-  font-style: normal;
-}
+@import url("https://fonts.cdnfonts.com/css/tt-norms-pro?styles=70921,70916,70923,70922,70915,70914,70918,70917,70920,70919,70909,70908,70913,70912,70907,70906,70911,70910");
 
 :root {
-  font-family: "Goldman Sans", Helvetica, Arial, sans-serif;
+  font-family: "TT Norms Pro", sans-serif !important;
   line-height: 1.5;
   font-weight: 400;
-
-  color-scheme: light dark;
-  /* color: rgba(255, 255, 255, 0.87); */
-  /* background-color: #242424; */
-  color: #878787;
-  background-color: rgb(241, 241, 241);
+  color: #242424;
+  background-color: rgba(255, 255, 255) !important;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -100,5 +24,5 @@ h3,
 h4,
 h5,
 h6 {
-  color: #404040;
+  color: #404040 !important;
 }
