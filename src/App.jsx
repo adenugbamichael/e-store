@@ -40,9 +40,7 @@ const App = () => {
         <div key={id} className='category-container'>
           <div
             className='background-image'
-            style={{
-              background: `url(${imageUrl})`,
-            }}
+            style={{ backgroundImage: `url(${imageUrl})` }}
           />
           <div className='category-body-container'>
             <h2>{title}</h2>
