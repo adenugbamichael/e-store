@@ -1,10 +1,5 @@
-@import url("https://fonts.cdnfonts.com/css/tt-norms-pro?styles=70921,70916,70923,70922,70915,70914,70918,70917,70920,70919,70909,70908,70913,70912,70907,70906,70911,70910");
-
-// @import url("https://fonts.googleapis.com/css2?family=Radio+Canada:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
-
 :root {
-  font-family: "TT Norms Pro", sans-serif !important;
-  // font-family: "Radio Canada", sans-serif !important;
+  font-family: "Goldman Sans", sans-serif !important;
   line-height: 1.5 !important;
   font-weight: 400 !important;
   color: #242424 !important;
@@ -16,11 +11,22 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
+* {
+  box-sizing: border-box;
+}
 html {
   -webkit-tap-highlight-color: transparent;
   -webkit-text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
 }
+
+@font-face {
+  font-family: "Goldman Sans" !important;
+  src: url("./assets/GoldmanSans_W_Lt.woff2");
+  font-weight: 300;
+  font-style: normal;
+}
+
 h1,
 h2,
 h3,
@@ -28,4 +34,9 @@ h4,
 h5,
 h6 {
   color: #404040 !important;
+  font-family: "Goldman Sans" !important;
+  font-weight: 300 !important;
+}
+a {
+  text-decoration: none;
 }
