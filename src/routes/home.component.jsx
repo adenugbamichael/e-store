@@ -1,5 +1,5 @@
 /* eslint-disable react/jsx-key */
-// import { Outlet } from "react-router-dom"
+
 import Directory from "../components/directory/directory.component"
 
 const Home = () => {
@@ -36,7 +36,6 @@ const Home = () => {
     },
   ]
 
-  // <Outlet />
   return (
     <div>
       <Directory categories={categories} />
