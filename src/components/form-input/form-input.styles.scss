@@ -1,4 +1,4 @@
-$sub-color: grey;
+$sub-color: #404040 !important;
 $main-color: black;
 
 @mixin shrinkLabel {
@@ -15,7 +15,9 @@ $main-color: black;
     background: none;
     background-color: white;
     color: $sub-color;
+    font-family: "Goldman Sans" !important;
     font-size: 18px;
+    font-weight: 300;
     padding: 10px 10px 10px 5px;
     display: block;
     width: 100%;
