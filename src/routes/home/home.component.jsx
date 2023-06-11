@@ -1,5 +1,6 @@
 /* eslint-disable react/jsx-key */
 
+import { hats, jackets, mens, sneakers, womens } from "../../assets"
 import Directory from "../../components/directory/directory.component"
 
 const Home = () => {
@@ -7,32 +8,27 @@ const Home = () => {
     {
       id: 1,
       title: "hats",
-      imageUrl:
-        "https://raw.githubusercontent.com/adenugbamichael/e-store/master/src/assets/img/hats/n.jpg",
+      imageUrl: hats,
     },
     {
       id: 2,
       title: "jackets",
-      imageUrl:
-        "https://raw.githubusercontent.com/adenugbamichael/e-store/master/src/assets/img/jackets/a.jpg",
+      imageUrl: jackets,
     },
     {
       id: 3,
       title: "sneakers",
-      imageUrl:
-        "https://raw.githubusercontent.com/adenugbamichael/e-store/master/src/assets/img/sneakers/s.jpg",
+      imageUrl: sneakers,
     },
     {
       id: 4,
       title: "womens",
-      imageUrl:
-        "https://raw.githubusercontent.com/adenugbamichael/e-store/master/src/assets/img/womens/wo.jpg",
+      imageUrl: womens,
     },
     {
       id: 5,
       title: "mens",
-      imageUrl:
-        "https://raw.githubusercontent.com/adenugbamichael/e-store/master/src/assets/img/mens/m.jpg",
+      imageUrl: mens,
     },
   ]
 
