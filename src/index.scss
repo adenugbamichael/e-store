@@ -19,6 +19,10 @@ html {
   -webkit-text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
 }
+body {
+  margin: 0;
+  padding: 20px 40px;
+}
 
 @font-face {
   font-family: "Goldman Sans" !important;
@@ -39,4 +43,5 @@ h6 {
 }
 a {
   text-decoration: none;
+  color: #404040;
 }

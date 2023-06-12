@@ -6,11 +6,11 @@
   line-height: 50px;
   padding: 0 35px 0 35px;
   font-size: 15px;
-  background-color: black;
+  background-color: #78a947;
   color: white;
-  text-transform: uppercase;
   font-family: "Goldman Sans";
-  font-weight: bolder;
+  // font-weight: bold;
+  // text-transform: uppercase;
   border: none;
   cursor: pointer;
   display: flex;
@@ -18,27 +18,28 @@
 
   &:hover {
     background-color: white;
-    color: black;
-    border: 1px solid black;
+    color: #78a947;
+    border: 1px solid #78a947;
   }
 
   &.google-sign-in {
-    background-color: #4285f4;
-    color: white;
+    background-color: #e8f0fe;
+    color: #4285f4;
+    border: 1px solid #357ae8;
 
     &:hover {
-      background-color: #357ae8;
-      border: none;
+      background-color: #e9f0fb;
+      border: 1px solid #357ae8;
     }
   }
 
   &.inverted {
     background-color: white;
     color: #404040;
-    border: 1px solid black;
+    border: 1px solid #78a947;
 
     &:hover {
-      background-color: black;
+      background-color: #78a947;
       color: white;
       border: none;
     }
