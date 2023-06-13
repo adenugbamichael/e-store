@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
-import { createContext, useState } from "reac
-import { addCollectionAndDocuments } from "../utils/firebase/firebase.utils.jsx"
+import { createContext, useState, useEffect } from "react"
+import { getCategoriesAndDocuments } from "../utils/firebase/firebase.utils.jsx"
 
 export const ProductsContext = createContext({
   products: [],
@@ -8,6 +8,14 @@ export const ProductsContext = createContext({
 
 export const ProductsProvider = ({ children }) => {
   const [products, setProducts] = useState([])
+
+  useEffect(() => {
+    const getCategoriesMap = async () => {
+      const categoryMap = await getCategoriesAndDocuments()
+      console.log(categoryMap)
+    }
+    getCategoriesMap()
+  }, [])
 
   const value = { products }
   return (
