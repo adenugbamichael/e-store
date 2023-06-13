@@ -85,49 +85,57 @@ const SHOP_DATA = [
       {
         id: 10,
         name: "Adidas NMD",
-        imageUrl: "https://i.ibb.co/0s3pdnc/adidas-nmd.png",
+        imageUrl:
+          "https://raw.githubusercontent.com/adenugbamichael/e-store/master/src/assets/img/sneakers%20(1).jpg",
         price: 220,
       },
       {
         id: 11,
         name: "Adidas Yeezy",
-        imageUrl: "https://i.ibb.co/dJbG1cT/yeezy.png",
+        imageUrl:
+          "https://raw.githubusercontent.com/adenugbamichael/e-store/master/src/assets/img/sneakers%20(8).jpg",
         price: 280,
       },
       {
         id: 12,
         name: "Black Converse",
-        imageUrl: "https://i.ibb.co/bPmVXyP/black-converse.png",
+        imageUrl:
+          "https://raw.githubusercontent.com/adenugbamichael/e-store/master/src/assets/img/sneakers%20(13).jpg",
         price: 110,
       },
       {
         id: 13,
         name: "Nike White AirForce",
-        imageUrl: "https://i.ibb.co/1RcFPk0/white-nike-high-tops.png",
+        imageUrl:
+          "https://raw.githubusercontent.com/adenugbamichael/e-store/master/src/assets/img/sneakers%20(9).jpg",
         price: 160,
       },
       {
         id: 14,
         name: "Nike Red High Tops",
-        imageUrl: "https://i.ibb.co/QcvzydB/nikes-red.png",
+        imageUrl:
+          "https://raw.githubusercontent.com/adenugbamichael/e-store/master/src/assets/img/sneakers%20(7).jpg",
         price: 160,
       },
       {
         id: 15,
         name: "Nike Brown High Tops",
-        imageUrl: "https://i.ibb.co/fMTV342/nike-brown.png",
+        imageUrl:
+          "https://raw.githubusercontent.com/adenugbamichael/e-store/master/src/assets/img/sneakers%20(4).jpg",
         price: 160,
       },
       {
         id: 16,
         name: "Air Jordan Limited",
-        imageUrl: "https://i.ibb.co/w4k6Ws9/nike-funky.png",
+        imageUrl:
+          "https://raw.githubusercontent.com/adenugbamichael/e-store/master/src/assets/img/sneakers%20(10).jpg",
         price: 190,
       },
       {
         id: 17,
         name: "Timberlands",
-        imageUrl: "https://i.ibb.co/Mhh6wBg/timberlands.png",
+        imageUrl:
+          "https://raw.githubusercontent.com/adenugbamichael/e-store/master/src/assets/img/sneakers%20(5).jpg",
         price: 200,
       },
     ],
