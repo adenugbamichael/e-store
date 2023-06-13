@@ -66,13 +66,13 @@ const SHOP_DATA = [
         price: 16,
       },
       {
-        id: 8,
+        id: 10,
         name: "Wolf Cap",
         imageUrl: "https://i.ibb.co/1f2nWMM/wolf-cap.png",
         price: 14,
       },
       {
-        id: 9,
+        id: 11,
         name: "Blue Snapback",
         imageUrl: "https://i.ibb.co/X2VJP2W/blue-snapback.png",
         price: 16,
@@ -83,56 +83,56 @@ const SHOP_DATA = [
     title: "Sneakers",
     items: [
       {
-        id: 10,
+        id: 12,
         name: "Adidas NMD",
         imageUrl:
           "https://raw.githubusercontent.com/adenugbamichael/e-store/master/src/assets/img/sneakers%20(1).jpg",
         price: 220,
       },
       {
-        id: 11,
+        id: 13,
         name: "Adidas Yeezy",
         imageUrl:
           "https://raw.githubusercontent.com/adenugbamichael/e-store/master/src/assets/img/sneakers%20(8).jpg",
         price: 280,
       },
       {
-        id: 12,
+        id: 14,
         name: "Black Converse",
         imageUrl:
           "https://raw.githubusercontent.com/adenugbamichael/e-store/master/src/assets/img/sneakers%20(13).jpg",
         price: 110,
       },
       {
-        id: 13,
+        id: 15,
         name: "Nike White AirForce",
         imageUrl:
           "https://raw.githubusercontent.com/adenugbamichael/e-store/master/src/assets/img/sneakers%20(9).jpg",
         price: 160,
       },
       {
-        id: 14,
+        id: 16,
         name: "Nike Red High Tops",
         imageUrl:
           "https://raw.githubusercontent.com/adenugbamichael/e-store/master/src/assets/img/sneakers%20(7).jpg",
         price: 160,
       },
       {
-        id: 15,
+        id: 17,
         name: "Nike Brown High Tops",
         imageUrl:
           "https://raw.githubusercontent.com/adenugbamichael/e-store/master/src/assets/img/sneakers%20(4).jpg",
         price: 160,
       },
       {
-        id: 16,
+        id: 18,
         name: "Air Jordan Limited",
         imageUrl:
           "https://raw.githubusercontent.com/adenugbamichael/e-store/master/src/assets/img/sneakers%20(10).jpg",
         price: 190,
       },
       {
-        id: 17,
+        id: 19,
         name: "Timberlands",
         imageUrl:
           "https://raw.githubusercontent.com/adenugbamichael/e-store/master/src/assets/img/sneakers%20(5).jpg",
@@ -144,35 +144,35 @@ const SHOP_DATA = [
     title: "Jackets",
     items: [
       {
-        id: 18,
+        id: 20,
         name: "Black Jean Shearling",
         imageUrl:
           "https://raw.githubusercontent.com/adenugbamichael/e-store/master/src/assets/img/jackets%20(9).jpg",
         price: 125,
       },
       {
-        id: 19,
+        id: 21,
         name: "Blue Jean Jacket",
         imageUrl:
           "https://raw.githubusercontent.com/adenugbamichael/e-store/master/src/assets/img/jackets%20(13).jpg",
         price: 90,
       },
       {
-        id: 20,
+        id: 22,
         name: "Grey Jean Jacket",
         imageUrl:
           "https://raw.githubusercontent.com/adenugbamichael/e-store/master/src/assets/img/jackets%20(7).jpg",
         price: 90,
       },
       {
-        id: 21,
+        id: 23,
         name: "Brown Shearling",
         imageUrl:
           "https://raw.githubusercontent.com/adenugbamichael/e-store/master/src/assets/img/jackets%20(1).jpg",
         price: 165,
       },
       {
-        id: 22,
+        id: 24,
         name: "Tan Trench",
         imageUrl:
           "https://raw.githubusercontent.com/adenugbamichael/e-store/master/src/assets/img/jackets%20(5).jpg",
@@ -184,49 +184,49 @@ const SHOP_DATA = [
     title: "Womens",
     items: [
       {
-        id: 23,
+        id: 25,
         name: "Blue Tanktop",
         imageUrl:
           "https://raw.githubusercontent.com/adenugbamichael/e-store/master/src/assets/img/womens%20(11).jpg",
         price: 25,
       },
       {
-        id: 24,
+        id: 26,
         name: "Floral Blouse",
         imageUrl:
           "https://raw.githubusercontent.com/adenugbamichael/e-store/master/src/assets/img/womens%20(8).jpg",
         price: 20,
       },
       {
-        id: 25,
+        id: 27,
         name: "Floral Dress",
         imageUrl:
           "https://raw.githubusercontent.com/adenugbamichael/e-store/master/src/assets/img/womens%20(4).jpg",
         price: 80,
       },
       {
-        id: 26,
+        id: 28,
         name: "Red Dots Dress",
         imageUrl:
           "https://raw.githubusercontent.com/adenugbamichael/e-store/master/src/assets/img/womens%20(9).jpg",
         price: 80,
       },
       {
-        id: 27,
+        id: 29,
         name: "Striped Sweater",
         imageUrl:
           "https://raw.githubusercontent.com/adenugbamichael/e-store/master/src/assets/img/womens%20(14).jpg",
         price: 45,
       },
       {
-        id: 28,
+        id: 30,
         name: "Yellow Track Suit",
         imageUrl:
           "https://raw.githubusercontent.com/adenugbamichael/e-store/master/src/assets/img/womens%20(2).jpg",
         price: 135,
       },
       {
-        id: 29,
+        id: 31,
         name: "White Blouse",
         imageUrl:
           "https://raw.githubusercontent.com/adenugbamichael/e-store/master/src/assets/img/womens%20(10).jpg",
@@ -238,42 +238,42 @@ const SHOP_DATA = [
     title: "Mens",
     items: [
       {
-        id: 30,
+        id: 32,
         name: "Camo Down Vest",
         imageUrl:
           "https://raw.githubusercontent.com/adenugbamichael/e-store/master/src/assets/img/mens%20(3).jpg",
         price: 325,
       },
       {
-        id: 31,
+        id: 33,
         name: "Floral T-shirt",
         imageUrl:
           "https://raw.githubusercontent.com/adenugbamichael/e-store/master/src/assets/img/mens%20(4).jpg",
         price: 20,
       },
       {
-        id: 32,
+        id: 34,
         name: "Black & White Longsleeve",
         imageUrl:
           "https://raw.githubusercontent.com/adenugbamichael/e-store/master/src/assets/img/mens%20(5).jpg",
         price: 25,
       },
       {
-        id: 33,
+        id: 35,
         name: "Pink T-shirt",
         imageUrl:
           "https://raw.githubusercontent.com/adenugbamichael/e-store/master/src/assets/img/mens%20(13).png",
         price: 25,
       },
       {
-        id: 34,
+        id: 36,
         name: "Jean Long Sleeve",
         imageUrl:
           "https://raw.githubusercontent.com/adenugbamichael/e-store/master/src/assets/img/mens%20(10).jpg",
         price: 40,
       },
       {
-        id: 35,
+        id: 37,
         name: "Burgundy T-shirt",
         imageUrl:
           "https://raw.githubusercontent.com/adenugbamichael/e-store/master/src/assets/img/mens%20(7).jpg",
