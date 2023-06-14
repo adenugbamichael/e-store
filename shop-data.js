@@ -65,18 +65,6 @@ const SHOP_DATA = [
           "https://raw.githubusercontent.com/adenugbamichael/e-store/master/src/assets/img/blueSnapback.jpg",
         price: 16,
       },
-      {
-        id: 10,
-        name: "Wolf Cap",
-        imageUrl: "https://i.ibb.co/1f2nWMM/wolf-cap.png",
-        price: 14,
-      },
-      {
-        id: 11,
-        name: "Blue Snapback",
-        imageUrl: "https://i.ibb.co/X2VJP2W/blue-snapback.png",
-        price: 16,
-      },
     ],
   },
   {
