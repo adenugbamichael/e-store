@@ -1,6 +1,7 @@
 /* eslint-disable react/prop-types */
-import { useEffect } from "react"
-import { createContext, useState, useReducer } from "react"
+
+import { createContext, useReducer } from "react"
+import { createAction } from "../utils/reducer/reducer.utils"
 
 const addCartItem = (cartItems, productToAdd) => {
   // find if cartItems contains productToAdd
@@ -52,6 +53,11 @@ export const CartContext = createContext({
   cartTotal: 0,
 })
 
+const CART_ACTION_TYPES = {
+  SET_CART_ITEMS: "SET_CART_ITEMS",
+  SET_IS_CART_OPEN: "SET_IS_CART_OPEN",
+}
+
 const INITIAL_STATE = {
   isCartOpen: false,
   cartItems: [],
@@ -63,10 +69,15 @@ const cartReducer = (state, action) => {
   const { type, payload } = action
 
   switch (type) {
-    case "SET_CART_ITEMS":
+    case CART_ACTION_TYPES.SET_CART_ITEMS:
       return {
         ...state,
         ...payload,
+      }
+    case CART_ACTION_TYPES.SET_IS_CART_OPEN:
+      return {
+        ...state,
+        isCartOpen: payload,
       }
     default:
       throw new Error(`unhandled type of ${type} in cartReducer`)
@@ -88,14 +99,13 @@ export const CartProvider = ({ children }) => {
       0
     )
 
-    dispatch({
-      type: "SET_CART_ITEMS",
-      payload: {
+    dispatch(
+      createAction(CART_ACTION_TYPES.SET_CART_ITEMS, {
         cartItems: newCartItems,
         cartTotal: newCartTotal,
         cartCount: newCartCount,
-      },
-    })
+      })
+    )
   }
 
   const addItemToCart = (productToAdd) => {
@@ -113,9 +123,13 @@ export const CartProvider = ({ children }) => {
     updateCartItemsReducer(newCartItems)
   }
 
+  const setIsCartOpen = (bool) => {
+    dispatch(createAction(CART_ACTION_TYPES.SET_IS_CART_OPEN, bool))
+  }
+
   const value = {
     isCartOpen,
-    setIsCartOpen: () => {},
+    setIsCartOpen,
     addItemToCart,
     removeItemToCart,
     clearItemFromCart,
