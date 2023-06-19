@@ -1,12 +1,12 @@
 /* eslint-disable react/no-unescaped-entities */
 import { useState } from "react"
-import {
-  createAuthUserWithEmailAndPassword,
-  createUserDocumentFromAuth,
-} from "../../utils/firebase/firebase.utils"
+import { useDispatch } from "react-redux"
+
 import FormInput from "../form-input/form-input.component"
-import "./sign-up-form.styles.scss"
 import Button from "../button/button.component"
+
+import { SignUpContainer } from "./sign-up-form.styles"
+import { signUpStart } from "../../store/user/user.action"
 
 const defaultFormFields = {
   displayName: "",
@@ -18,6 +18,7 @@ const defaultFormFields = {
 const SignUpForm = () => {
   const [formFields, setFormFields] = useState(defaultFormFields)
   const { displayName, email, password, confirmPassword } = formFields
+  const dispatch = useDispatch()
 
   const resetFormFields = () => {
     setFormFields(defaultFormFields)
@@ -32,14 +33,13 @@ const SignUpForm = () => {
     }
 
     try {
-      const { user } = await createAuthUserWithEmailAndPassword(email, password)
-
-      await createUserDocumentFromAuth(user, { displayName }), resetFormFields()
+      dispatch(signUpStart(email, password, displayName))
+      resetFormFields()
     } catch (error) {
       if (error.code === "auth/email-already-in-use") {
         alert("Cannot create user, email already in use")
       } else {
-        console.error("user creation encountered an error", error)
+        console.log("user creation encountered an error", error)
       }
     }
   }
@@ -51,47 +51,48 @@ const SignUpForm = () => {
   }
 
   return (
-    <div className='sign-up-container'>
+    <SignUpContainer>
       <h2>Don't have an account?</h2>
       <span>Sign up with your email and password</span>
       <form onSubmit={handleSubmit}>
         <FormInput
           label='Display Name'
-          onChange={handleChange}
           type='text'
+          required
+          onChange={handleChange}
           name='displayName'
           value={displayName}
-          required
         />
 
         <FormInput
           label='Email'
-          onChange={handleChange}
           type='email'
+          required
+          onChange={handleChange}
           name='email'
           value={email}
-          required
         />
 
         <FormInput
           label='Password'
-          onChange={handleChange}
           type='password'
+          required
+          onChange={handleChange}
           name='password'
           value={password}
-          required
         />
+
         <FormInput
           label='Confirm Password'
-          onChange={handleChange}
           type='password'
+          required
+          onChange={handleChange}
           name='confirmPassword'
           value={confirmPassword}
-          required
         />
-        <Button type='submit'>Sign up</Button>
+        <Button type='submit'>Sign Up</Button>
       </form>
-    </div>
+    </SignUpContainer>
   )
 }
 
