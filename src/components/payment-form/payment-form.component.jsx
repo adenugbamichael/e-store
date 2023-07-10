@@ -8,7 +8,7 @@ const PaymentForm = () => {
   const paymentHandler = async (e) => {
     e.preventDefault()
 
-    if (!stripe || !elments) {
+    if (!stripe || !elements) {
       return
     }
   }
