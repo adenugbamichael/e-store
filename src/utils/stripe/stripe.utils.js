@@ -1,4 +1,4 @@
-/* eslint-disable no-undef */
+import process from "process"
 import { loadStripe } from "@stripe/stripe-js"
 
 export const stripePromise = loadStripe(

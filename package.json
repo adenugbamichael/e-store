@@ -13,7 +13,9 @@
     "@reduxjs/toolkit": "^1.9.5",
     "@stripe/react-stripe-js": "^2.1.1",
     "@stripe/stripe-js": "^1.54.1",
+    "dotenv": "^16.3.1",
     "firebase": "^9.22.2",
+    "process": "^0.11.10",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-redux": "^8.1.0",
@@ -25,6 +27,7 @@
     "redux-thunk": "^2.4.2",
     "reselect": "^4.1.8",
     "sass": "^1.63.2",
+    "stripe": "^12.12.0",
     "styled-components": "^6.0.0-rc.3"
   },
   "devDependencies": {
