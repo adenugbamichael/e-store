@@ -2,6 +2,7 @@
   "name": "e-store",
   "private": true,
   "version": "0.0.0",
+  "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -26,7 +27,6 @@
     "require": "^2.4.20",
     "reselect": "^4.1.8",
     "sass": "^1.63.2",
-    "stripe": "^12.12.0",
     "styled-components": "^6.0.0-rc.3"
   },
   "devDependencies": {
