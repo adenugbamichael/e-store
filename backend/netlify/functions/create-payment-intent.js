@@ -1,5 +1,4 @@
 /* eslint-disable no-undef */
-import process from "process"
 
 require("dotenv").config()
 const stripe = require("stripe")(process.env.STRIPE_SECRET_KEY)

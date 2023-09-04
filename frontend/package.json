@@ -2,7 +2,6 @@
   "name": "e-store",
   "private": true,
   "version": "0.0.0",
-  "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -11,9 +10,8 @@
   },
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.5",
-    "@stripe/react-stripe-js": "^2.1.1",
-    "@stripe/stripe-js": "^1.54.1",
-    "dotenv": "^16.3.1",
+    "@stripe/react-stripe-js": "^2.1.2",
+    "@stripe/stripe-js": "^2.1.1",
     "firebase": "^9.22.2",
     "process": "^0.11.10",
     "react": "^18.2.0",
@@ -25,6 +23,7 @@
     "redux-persist": "^6.0.0",
     "redux-saga": "^1.2.3",
     "redux-thunk": "^2.4.2",
+    "require": "^2.4.20",
     "reselect": "^4.1.8",
     "sass": "^1.63.2",
     "stripe": "^12.12.0",
